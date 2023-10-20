@@ -1,0 +1,96 @@
+*{
+  font-family: 'Baloo Chettan 2', sans-serif;
+}
+
+.div-img{
+    margin-top: 30px;
+}
+
+.h1Tittle{
+    color: black;
+    margin-bottom: 30px;
+}
+
+
+ion-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+  }
+  
+  ion-input {
+    --border-radius: 10px !important;
+  }
+  
+  ion-card-title{
+    font-size: 34px;
+    margin-top: 15px;
+  }
+  
+  .form{
+    width: 300px;
+    margin-left: 13px;
+  }
+  
+  ion-card{
+    --border-radius: 25px!important;
+  }
+  
+  .card{
+    border-radius: 20px;
+  }
+  
+  .titleInput{
+    margin-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .button{
+    margin-top: 60px;
+    width: 290px;
+    margin-left: 0px;
+  }
+  
+  ion-button{
+    --border-radius: 15px!important;
+  }
+  
+  .divNovo{
+    margin-top: 60px;
+    margin-bottom: 120px;
+  }
+  
+  /*BTN UPLOAD*/
+  
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden; 
+  
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 55px;
+    width:35vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .upload{
+    width: 60px;
+    height: 60px;
+  }
+  .upload-h2{
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  .inputDescricao{
+    height: 200px;
+    display: flex;
+  }
+
+  p{
+    margin: 0;
+  }

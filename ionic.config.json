@@ -1,0 +1,7 @@
+{
+  "name": "iColdTab",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

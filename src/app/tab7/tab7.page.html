@@ -1,0 +1,57 @@
+<ion-content [fullscreen]="true" color="success">
+
+  <div align="center" class="div-img">
+    <img src="../../assets/img/logo.png" alt="" align="center">
+  </div>
+
+  <div align="center" class="h1Tittle">
+    <h1>Solicitar Assistencia Técnica</h1>
+  </div>
+
+  <ion-card>
+    <ion-card-content>
+      <form id="cadastroForm">
+        <h2 class="titleInput">Nome Completo</h2>
+        <ion-input label-placement="floating" fill="outline" placeholder="Enter text"></ion-input>
+
+           <h2 class="titleInput">Data e hora da visita</h2>
+        <ion-input label-placement="floating" fill="outline" placeholder="Enter text"></ion-input>
+
+        <h2 class="titleInput">Telefone</h2>
+        <ion-input label-placement="floating" fill="outline" type="tel" id="telefone" name="telefone" required pattern="\(\d{2}\) \d{4,5}-\d{4}" placeholder="(99) 99999-9999"></ion-input>
+
+        <h2 class="titleInput">CEP</h2>
+        <ion-input label-placement="floating" fill="outline" type="text" id="cep" name="cep" required pattern="\d{5}-\d{3}" placeholder="12345-678"></ion-input>
+
+        <div align="center">
+          <ion-button expand="full" shape="round" color="warning" (click)="buscarEndereco()">Pesquisar</ion-button>
+        </div>
+        
+      
+        <h2 class="titleInput">Endereço</h2>
+        <ion-input label-placement="floating" fill="outline"  type="text" id="endereco" name="endereco" readonly></ion-input>
+
+        <h2 class="titleInput">Número</h2>
+        <ion-input label-placement="floating" fill="outline"  type="text" id="" name="" required></ion-input>
+
+        <h2 class="titleInput">Bairro</h2>
+        <ion-input label-placement="floating" fill="outline" type="text" id="bairro" name="bairro" readonly></ion-input>
+
+        <h2 class="titleInput">Cidade</h2>
+        <ion-input label-placement="floating" fill="outline" type="text" id="cidade" name="cidade" readonly></ion-input>
+    
+        <h2 class="titleInput">Estado</h2>
+        <ion-input label-placement="floating" fill="outline" type="text" id="estado" name="estado" readonly></ion-input>
+
+        <h2 class="titleInput">Descrição do problema</h2>
+        <textarea name="" id="" cols="30" rows="10" maxlength="300"class="textDescricao"></textarea>
+
+        <div align="center">
+          <ion-button expand="full" shape="round" color="warning" (click)="cadastrarFuncionario()">Solicitar</ion-button>
+        </div>
+        
+      </form>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

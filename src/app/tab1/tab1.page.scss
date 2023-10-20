@@ -1,0 +1,134 @@
+*{
+    font-family: 'Baloo Chettan 2', sans-serif;
+}
+  
+  ion-toolbar {
+      --background: transparent;
+      --ion-color-base: transparent !important;
+    }
+    
+    ion-input {
+      --border-radius: 10px !important;
+    }
+    
+    ion-card-title{
+      font-size: 34px;
+      margin-top: 15px;
+    }
+    
+    .form{
+      width: 300px;
+      margin-left: 13px;
+    }
+    
+    ion-card{
+      border-radius: 35px!important;
+    }
+  
+  
+    ion-card-content{
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    ion-card-content a{
+      text-decoration: none;
+    }
+  
+  
+    
+    ion-card-content h3{
+      width: 150px;
+      font-size: 12px;
+    }
+  
+  
+    ion-card-content h3:last-child{
+      width: 150px;
+      font-size: 12px;
+      color: #27AED9;
+      margin-top: 5px;
+    }
+  
+    
+    .card{
+      border-radius: 20px;
+    }
+    
+    .titleInput{
+      margin-left: 5px;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+    
+    
+    .button{
+      margin-top: 60px;
+      width: 290px;
+      margin-left: 0px;
+    }
+    
+    ion-button{
+      --border-radius: 15px!important;
+    }
+    
+    .divNovo{
+      margin-top: 60px;
+      margin-bottom: 120px;
+    }
+    
+    .div-img{
+      margin-top: 30px;
+    }
+    h3{
+      color: black;
+    }
+  /*BANNER*/
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #image {
+    border-radius: 25px;
+    margin-top: 30px;
+    width: 43vh;
+  }
+    
+  #texto {
+    position: absolute;
+    font-size: 20px;
+    left: 25px;
+    top: 257px;
+    line-height: 16px;
+  }
+  
+  
+  .textoInicial h1{
+    width: 80%;
+    margin-top: 40px;
+  }
+  
+  .textoInicial span{
+    color: #27AED9;
+  }
+  
+  .servicos{
+    margin-bottom: 40px;
+  }
+  
+  .cardServicos{
+    width: 210px;
+  }
+  
+  .cards{
+    display: flex;
+  }
+  
+  .div-trabalhos{
+    margin-bottom: 10px;
+  }

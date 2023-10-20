@@ -1,0 +1,59 @@
+*{
+  font-family: 'Baloo Chettan 2', sans-serif;
+}
+
+ion-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+  }
+  
+  ion-input {
+    --border-radius: 10px !important;
+  }
+  
+  ion-card-title{
+    font-size: 34px;
+    margin-top: 15px;
+  }
+  
+  .form{
+    width: 300px;
+    margin-left: 13px;
+  }
+  
+  ion-card{
+    --border-radius: 25px!important;
+  }
+  
+  .card{
+    border-radius: 20px;
+  }
+  
+  .titleInput{
+    margin-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .button{
+    margin-top: 60px;
+    width: 290px;
+    margin-left: 0px;
+  }
+  
+  ion-button{
+    --border-radius: 15px!important;
+  }
+  
+  .divNovo{
+    margin-top: 60px;
+    margin-bottom: 120px;
+  }
+  
+  .div-img{
+    margin-top: 30px;
+  }
+  h3{
+    color: black;
+  }
