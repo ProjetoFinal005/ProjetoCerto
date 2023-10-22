@@ -60,7 +60,7 @@ export class Tab7Page{
     localStorage.setItem('funcionarios', JSON.stringify(funcionarios)); 
     */
 
-    alert('Funcionário cadastrado com sucesso!');
+    alert('Chamado solicitado com sucesso!');
 
     // Limpe os campos do formulário após a submissão
     (<HTMLFormElement>document.getElementById('cadastroForm')).reset();
