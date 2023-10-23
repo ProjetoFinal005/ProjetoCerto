@@ -14,28 +14,28 @@
     <ion-card-content align="center">
       <div class="form">
         <h2 class="titleInput" align="left">Nome Completo</h2>
-        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" required></ion-input>
+        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" required [(ngModel)]="nome"></ion-input>
 
         <h2 class="titleInput" align="left">CPF</h2>
-        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" required></ion-input>
+        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" required ></ion-input>
 
         <h2 class="titleInput" align="left">Data de Nascimento</h2>
-        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" required></ion-input>
+        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" required ></ion-input>
 
         <h2 class="titleInput" align="left">Email</h2>
-        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" required></ion-input>
+        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" required [(ngModel)]="email"></ion-input>
 
         <h2 class="titleInput" align="left">Endereço</h2>
-        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" required></ion-input>
+        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" required ></ion-input>
 
         <h2 class="titleInput" align="left">Senha</h2>
-        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" type="password" required></ion-input>
+        <ion-input label-placement="floating" fill="outline" placeholder="Enter text" type="password" required [(ngModel)]="senha"></ion-input>
 
         <h2 class="titleInput" align="left">Confirme a Senha</h2>
         <ion-input label-placement="floating" fill="outline" placeholder="Enter text" type="password" required></ion-input>
 
         <div align="center" class="button">
-          <ion-button expand="full" shape="round" color="warning">Cadastrar</ion-button>
+        <ion-button expand="full" shape="round" color="warning" (click)="cad()">Cadastrar</ion-button>
         </div>
       </div>
       
