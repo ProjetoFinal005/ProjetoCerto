@@ -3,7 +3,7 @@
 }
 
   ion-content{
-    --background: #EFF6FD url(../../assets/img/background.png) no-repeat center center / cover;
+    --background: #EFF6FD url(../../assets/img/background2.png) no-repeat center center / cover;
     --background-size: cover;
   }
     
@@ -106,12 +106,14 @@
     left: 25px;
     top: 257px;
     line-height: 16px;
+    color: white;
   }
   
   
   .textoInicial h1{
     width: 80%;
     margin-top: 40px;
+    color: white;
   }
   
   .textoInicial span{

@@ -1,91 +1,94 @@
-v
+ion-content{
+  --background: #EFF6FD url(../../assets/img/background2.png) no-repeat center center / cover;
+  --background-size: cover;
+}
 
 #container {
-    text-align: center;
+  text-align: center;
   align-items: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    margin:0;
-  }
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin:0;
+}
   
-  #container strong {
-    font-size: 20px;
-    line-height: 26px;
-  }
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
   
-  #container p {
-    font-size: 16px;
-    line-height: 22px;
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
   
-    color: #8c8c8c;
-  
-    margin: 0;
-  }
-  
-  #container a {
-    text-decoration: none;
-  }
-  ion-checkbox{
-  margin: 10px;
-  }
-  
-  .senha{
-    margin-left: 5px;
-  }
-  
-  .botao{
-    margin-bottom: 10px;
+#container a {
+  text-decoration: none;
+}
+ion-checkbox{
+margin: 10px;
+}
+
+.senha{
+  margin-left: 5px;
+}
+
+.botao{
+  margin-bottom: 10px;
 margin-top: 10px;
 padding: 10px;
 font-size: 15px;
-  }
-  .img{
-    width: 150px;
-    height: 150px;
-    background-color: #EEF6FF;
-    border: 1px solid;
-    border-color: black;
-    border-radius: 25px;
-    padding: 30px;
-    margin-top: 20px;
-  }
+}
+.img{
+  width: 150px;
+  height: 150px;
+  background-color: #EEF6FF;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 25px;
+  padding: 30px;
+  margin-top: 20px;
+}
 
-  ion-title{
-    text-align: center;
-    
-  }
-  .textinho{
-    text-align: center;
-    font-size: 19px;
-    margin-top: 17px;
-  }
-  .textinho2{
-    margin-top: 30px;
-  }
-  .tec{
-    text-align: center;
-  }
+ion-title{
+  text-align: center;
+  
+}
+.textinho{
+  text-align: center;
+  font-size: 19px;
+  margin-top: 17px;
+}
+.textinho2{
+  margin-top: 30px;
+}
+.tec{
+  text-align: center;
+}
 
-  p{
-    color: black;
-    font-size: 22px;
-  }
-  ion-card{
-    --border-radius: 25px!important;
-    height: 74.3vh;
+p{
+  color: black;
+  font-size: 22px;
+}
+ion-card{
+  --border-radius: 25px!important;
+  height: 74.3vh;
 }
 
 ion-card-content{
-  margin-top: 20px !important;
+margin-top: 20px !important;
 }
 
 .card{
-  border-radius: 20px;
+border-radius: 20px;
 }
 
 .div-img{
-  margin-top: 30px;
+margin-top: 30px;
 }

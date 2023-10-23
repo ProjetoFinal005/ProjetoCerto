@@ -2,10 +2,10 @@
    font-family: 'Baloo Chettan 2', sans-serif;
 }
 
- ion-content{
-   --background: #EFF6FD url(../../assets/img/background.png) no-repeat center center / cover;
-   --background-size: cover;
- }
+  ion-content{
+    --background: #EFF6FD url(../../assets/img/background2.png) no-repeat center center / cover;
+    --background-size: cover;
+  }
    
    ion-input {
      --border-radius: 10px !important;
@@ -85,16 +85,50 @@
 
    .h1Tittle h1{
       width: 240px;
+      color: white;
    }
 
 
    .title{
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    margin-left: 30px;
    }
 
 
-   .title ion-icon{
-      width: 50px;
+   .title h1{
+    color: #66ABD2;
+   }
+
+
+   .box-sobre{
+    background-color: white;
+    width: 255px;
+    margin-left: 27px;
+    border-radius: 20px;
+   }
+
+   .box-sobre h1{
+    font-size: 15px;
+    padding: 10px;
+    color: #27AED9;
+   }
+
+   .title2 h1{
+    color: #66ABD2;
+    margin-right: 27px;
+    margin-top: 55px;
+   }
+
+
+   .box-sobre2{
+    background-color: white;
+    width: 255px;
+    margin-left: 107px;
+    border-radius: 20px;
+   }
+
+
+   .box-sobre2 h1{
+    font-size: 15px;
+    padding: 10px;
+    color: #27AED9;
    }

@@ -2,10 +2,11 @@
   font-family: 'Baloo Chettan 2', sans-serif;
 }
 
-ion-toolbar {
-  --background: transparent;
-  --ion-color-base: transparent !important;
+ion-content{
+  --background: #EFF6FD url(../../assets/img/background2.png) no-repeat center center / cover;
+  --background-size: cover;
 }
+  
 
 ion-input {
   --border-radius: 10px !important;
@@ -44,6 +45,7 @@ ion-card{
 
 ion-button{
   --border-radius: 15px!important;
+  color: white;
 }
 
 .divNovo{
